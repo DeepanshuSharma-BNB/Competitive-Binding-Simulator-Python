@@ -9,7 +9,7 @@
 
 # SNF Winter 2014/2015
 
-import sys, os, argparse
+import argparse
 import numpy as np
 import matplotlib.pyplot as plt
 from itertools import repeat
