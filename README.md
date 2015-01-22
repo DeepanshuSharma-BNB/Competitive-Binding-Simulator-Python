@@ -3,7 +3,7 @@ A simple simulator for competitive binding experiments, e.g. fluorescence polari
 
 Depends on: matplotlib, numpy
 
-'''
+```
 usage: competitive_binding_sim.py [-h] [-o OUTPUT] [-kd KD] [-ki KI]
                                   [-rt RECEPTOR_TOTAL] [-lt LIGAND_TOTAL]
 
@@ -20,7 +20,7 @@ optional arguments:
                         micromolar)
   -lt LIGAND_TOTAL, --ligand_total LIGAND_TOTAL
                         Concentration of labeled ligand; micromolar
-'''
+```
 
 Notes: 
 
