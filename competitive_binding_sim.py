@@ -10,7 +10,6 @@
 # SNF Winter 2014/2015
 
 import sys, os, argparse
-from SNFUtils import * # prompt, safe_open_file, stdout_from_command
 import numpy as np
 import matplotlib.pyplot as plt
 from itertools import repeat
@@ -62,8 +61,6 @@ def eqn17(l_t, k_i):
 
 
 plots = [ map(eqn17, xvals, repeat(k_i, len(xvals))) for k_i in k_is ]
-
-#print plots
 
 fig, ax = plt.subplots()
 for result in plots: 
