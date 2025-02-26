@@ -1,5 +1,6 @@
-# competitive-binding-simulator
-A simple simulator for competitive binding experiments, e.g. fluorescence polarization.  Equations taken from: Michael H. A. Roehrl, Julia Y. Wang, and Gerhard Wagner, Biochemistry 43, 16056 (2004). 
+# Competitive Binding Simulator
+Python based simulator for competitive binding experiments, e.g. fluorescence polarization. 
+Equations taken from: Michael H. A. Roehrl, Julia Y. Wang, and Gerhard Wagner, Biochemistry 43, 16056 (2004). 
 
 Depends on: matplotlib, numpy
 
@@ -24,6 +25,6 @@ optional arguments:
 
 Notes: 
 
- - it is assumed that competition is "complete"; i.e. binding of the labeled ligand and competitor are mutually exclusive 
- - no sanity checks are performed on inputs at present
- - units for all input parameters are micromolar 
+ - It is assumed that competition is "complete"; i.e. binding of the labeled ligand and competitor are mutually exclusive.
+ - No sanity checks are performed on inputs at present.
+ - Units for all input parameters are micromolar.
